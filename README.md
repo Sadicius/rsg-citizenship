@@ -1,5 +1,4 @@
-# RSG_citizenship
-Version stevo_citizenship for Redm to RSG
+# Version stevo_citizenship for Redm to RSG
 Citizenship exam for first-time players to take before playing! 
 The system is highly configurable and optimized, allowing you to set your own locations and questions players must answer. Includes exploit protection and teleports players back if they try to leave without doing the exam.
 
