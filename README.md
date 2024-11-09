@@ -5,7 +5,7 @@ The system is highly configurable and optimized, allowing you to set your own lo
 # Installation
 - Ensure you have dependencies installed and ensure they start before rsg_citizenship in the server.cfg
 - Put script in your `resources` directory
-- Add `ensure `stevo_citizenship` in your `server.cfg`
+- Add `ensure stevo_citizenship` in your `server.cfg`
 
 # Dependency
 - ox_lib
