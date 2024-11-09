@@ -1,35 +1,31 @@
 fx_version 'cerulean'
-game 'gta5'
-use_experimental_fxv2_oal 'yes'
-lua54 'yes'
+rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships.'
+game 'rdr3'
 
-author 'StevoScripts | steve & s4t4n'
-description 'Citizenship Exam System for preventing trolls!'
-version '1.2.5'
+author "StevoScripts and edited for rsg by phil resource here https://github.com/stevoscriptss/stevo_citizenship?tab=readme-ov-file"
 
-shared_script {
+shared_scripts {
     '@ox_lib/init.lua',
-    'config.lua'
+    'config.lua',
 }
 
 client_scripts {
-    'resource/client.lua',
+    'modules/client.lua',
+    'modules/npcs.lua',
 }
 
 server_scripts {
-    'resource/server.lua',
-    '@oxmysql/lib/MySQL.lua'
-}
-
-files {
-    'locales/*.json'
+    '@oxmysql/lib/MySQL.lua',
+    'modules/server.lua',
 }
 
 dependencies {
-    'ox_lib'
+    'rsg-core',
+    'oxmysql',
 }
 
+files {
+  'locales/*.json'
+}
 
-
-
-
+lua54 "yes"
