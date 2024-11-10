@@ -3,6 +3,7 @@ lib.locale()
 
 local function GetIdentifier(id)
     local Player = RSGCore.Functions.GetPlayer(id)
+    if not Player then return end
     return Player.PlayerData.citizenid
 end
 
